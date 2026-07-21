@@ -71,7 +71,7 @@ export const Navbar: React.FC = () => {
             <span className="font-mono font-bold">EN</span>
           </div>
 
-          <button className="flex items-center gap-1.5 text-sm font-bold text-gray-300 hover:text-white px-3 py-2 transition-colors">
+          <button onClick={() => window.location.href = 'https://poker-game-lake.vercel.app/login'} className="flex items-center gap-1.5 text-sm font-bold text-gray-300 hover:text-white px-3 py-2 transition-colors">
             <User className="w-4 h-4 text-gold-default" />
             <span>Login</span>
           </button>
